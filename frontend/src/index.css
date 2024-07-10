@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #17181f;
+  color:#ddd;
+}
+
+.App{
+  max-width:360px;
+  margin:30px auto;
+}
+
+h1{
+  text-align:center;
+  color:#fff;
+  margin:0;
+}
+
+form{
+  margin-top:20px;
+}
+form div.basic{
+  display:flex;
+  gap:5px;
+  margin-bottom:5px;
+}
+
+form input[type="datetime-local"]{
+color:#777; /*for default text in date-time*/
+}
+
+form input{
+ width:100%;
+ background-color: transparent;
+ color:#ddd; /*for text color is inputted*/
+ /*place holder changes with data*/
+ border: 2px solid #30313d;
+}
+
+form button{
+  width:100%;
+  margin-top:5px;
+  border:0;
+  border-radius:5px;
+  background-color:#ddd;
+}
+
+div.transaction{
+  margin-top:5px;
+}
+div.transaction:first-child{
+  border-top:0px;
+}
+div.transaction{
+  display:flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid #30313d;
+  padding-bottom:0px;
+}
+ 
+div.transaction div.name{
+  font-size:1rem;
+}
+
+div.transaction div.description{
+  font-size: .7rem;
+  color:#888;
+}
+div.right{
+  text-align:right;
+}
+
+div.price.green{
+  color:#1c1;
+}
+div.price.red{
+  color:#c11;
+}
