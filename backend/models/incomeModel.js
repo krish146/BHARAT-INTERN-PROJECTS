@@ -36,4 +36,4 @@ const IncomeSchema=new mongoose.Schema({
 
 },{timestamps:true})
 
-module.exports=mongoose.model('IncomeSchema',IncomeSchema)
+module.exports=mongoose.model('IncomeModel',IncomeSchema)
